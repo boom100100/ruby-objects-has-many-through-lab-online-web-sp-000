@@ -27,7 +27,7 @@ class Doctor
       appointment.doctor == self
     }
 
-    appointments.all.map {|appointment|
+    appointments.map {|appointment|
       appointment.patient
     }
 
